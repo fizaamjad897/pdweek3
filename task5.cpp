@@ -2,13 +2,12 @@
 using namespace std;
 main()
 {
-float charge;
-int time;
-float current;
-cout<< " Enter charge ";
-cin>>charge;
-cout<< " Enter time  ";
-cin>>time;
-current=charge/time;
-cout<< "the current is equal to  " <<current;
+int weight;
+int days;
+cout<< "Enter the weight you want to lose ";
+cin>>weight;
+days= 15 * weight;
+cout<< "You will lose "<<weight;
+cout<< " kgs in " <<days;
+cout<< " days";
 }

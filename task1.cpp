@@ -2,24 +2,15 @@
 using namespace std;
 main()
 {
-string name;
-int rollNumber;
-float aggregate;
-char section;
-cout<< "Enter your name ";
-cin>> name;
-cout<< "Enter your rollnumber ";
-cin>> rollNumber;
-cout<< "Enter your aggregate ";
-cin>> aggregate;
-cout<< "Enter your section ";
-cin>>section;
+char staric;
+staric = '*';
+cout<<staric;
 cout<<endl;
-cout<< "Your Name is " <<name;
+cout<<staric<<staric;
 cout<<endl;
-cout<< "Your rollnumber is " <<rollNumber;
+cout<<staric<<staric<<staric;
 cout<<endl;
-cout<< "Your aggregate is " <<aggregate;
+cout<<staric<<staric<<staric<<staric;
 cout<<endl;
-cout<< "Your section is " <<section;
+cout<<staric<<staric<<staric<<staric<<staric;
 }

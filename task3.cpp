@@ -2,13 +2,16 @@
 using namespace std;
 main()
 {
-float kgs;
-float lbs;
-float total;
-lbs=2.22;
-cout<< " Enter weight  " ;
-cin>> kgs;
-total= kgs * lbs;
-cout<<endl;
-cout<< " The weight in lbs is " <<total;
+float vf;
+float vi;
+int time;
+float acceleration;
+cout<< "Enter initial Velocity ";
+cin>>vi;
+cout<< "Enter Acceleration ";
+cin>>acceleration;
+cout<< "Enter Time ";
+cin>>time;
+vf=vi+ (acceleration * time);
+cout<< "The final velocity is "<<vf;
 }

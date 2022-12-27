@@ -2,18 +2,35 @@
 using namespace std;
 main()
 {
-int mb;
-int kb;
-int bytes;
-int bits;
-cout<< "Enter megabytes to convert ";
-cin>>mb;
-kb=1024*mb;
-cout<<mb <<"MB= "<<kb <<"KB";
+string moviename;
+float adultticketprice;
+float childticketprice;
+float adultticketsold;
+float childticketsold;
+float perctodonate;
+float amountgenerated;
+float totaladulttickets;
+float totalchildtickets;
+float afterdonations;
+float totaldonations;
+cout<< "Enter Movie name ";
+cin>>moviename;
+cout<< "Enter adult ticket price: ";
+cin>>adultticketprice;
+cout<< "Enter child ticket price: ";
+cin>>childticketprice;
+cout<< "Enter adult ticket sold: ";
+cin>>adultticketsold;
+cout<< "Enter child tickets sold: ";
+cin>>childticketsold;
+cout<< "Enter percentage to donate: ";
+cin>>perctodonate;
+totaladulttickets= adultticketprice * adultticketsold;
+totalchildtickets= childticketprice * childticketsold;
+amountgenerated= totaladulttickets+totalchildtickets;
+cout<< "Total amount generate: " <<amountgenerated;
 cout<<endl;
-bytes=1024*;
-cout<<kb <<"KB= "<<bytes <<"Bytes";
-cout<<endl;
-bits= 8 * mb;
-cout<<bytes <<"Bytes= "<<bits <<"bits"; 
+totaldonations= (amountgenerated * perctodonate )/100;
+afterdonations= amountgenerated-totaldonations;
+cout<< "Amount after donations: "<<afterdonations;
 }
